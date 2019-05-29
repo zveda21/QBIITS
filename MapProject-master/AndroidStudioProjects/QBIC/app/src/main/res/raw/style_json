@@ -1,0 +1,18 @@
+[
+  {
+    "featureType": "landscape.natural",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "stylers": [
+      {
+        "color": "#b3d2d7"
+      }
+    ]
+  }
+]

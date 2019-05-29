@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+
+
+        <item
+                android:id="@+id/contact"
+                android:title="Contact us"
+                android:icon="@drawable/ic_phone_black_24dp"
+                />
+        <item
+                android:id="@+id/settings"
+                android:title="Settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+        />
+
+        <item
+                android:id="@+id/aboust_us"
+                android:icon="@drawable/ic_supervisor_account_black_24dp"
+                android:title="About us"/>
+
+    </group>
+
+    <item android:title="ByZH">
+        <menu>
+            <item
+                    android:id="@+id/copy_right"
+                    android:icon="@drawable/ic_copyright_black_24dp"
+                    android:title="Copy Right"/>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+
+>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textview1"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="false"
+            android:text="@string/contact_us1"
+            android:textStyle="bold"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:paddingStart="20dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textview2"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="false"
+            android:text="@string/contact_us2"
+            android:textStyle="bold"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:layout_below="@+id/textview1"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview3"
+            android:layout_below="@+id/textview2"
+            android:text="@string/contact_us3"
+            android:textStyle="bold"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            android:layout_centerInParent="false"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"/>
+</RelativeLayout>

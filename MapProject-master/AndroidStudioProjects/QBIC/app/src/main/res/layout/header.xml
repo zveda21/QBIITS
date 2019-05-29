@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/gradient">
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_user"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+
+                android:src="@drawable/ic_person_blackk_24dp"
+        />
+        <TextView
+                android:id="@+id/headerUserName"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Էլ-փոստ"
+                android:textSize="15sp"
+                android:gravity="fill"
+                android:layout_below="@+id/image_user"
+        />
+        <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_add_a_photo_black_24dp"
+                android:id="@+id/chosse_image"
+                android:background="@drawable/recycle_image"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="110dp"
+
+        />
+
+    </RelativeLayout>
+</RelativeLayout>

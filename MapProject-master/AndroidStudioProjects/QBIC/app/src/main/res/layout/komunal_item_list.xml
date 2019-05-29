@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/komunal_imageView"
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sanitek"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+    />
+    <TextView
+            android:id="@+id/komunal_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Text"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/komunal_imageView"
+            android:layout_toEndOf="@+id/komunal_imageView"
+            android:layout_alignBottom="@+id/komunal_imageView"
+    />
+</RelativeLayout>
